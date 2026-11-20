@@ -7,3 +7,7 @@
 @media print{.chapter{break-before:auto;padding:5mm 0}.opening{break-before:auto;padding-top:0}.chapter:not(.opening)>h2{font-size:23pt}.chapter>p:has(img){break-inside:avoid}.chapter{orphans:3;widows:3}#where-lords-estate-stands-today{break-before:page}.hero{padding:10mm 0}.hero h1{font-size:54pt}.opening{padding-bottom:5mm}}
 
 .visual-scroll{overflow-x:auto}.visual-scroll img{display:block;width:100%;height:auto}.visual-link{font-size:12px;color:var(--muted);margin-top:5px}.visual-scroll:focus-visible{outline:3px solid var(--gold);outline-offset:3px}@media(max-width:760px){.visual-scroll img{min-width:700px}.visual-scroll{border:1px solid var(--line)}}@media print{.chapter:not(.opening){break-before:page}.visual-scroll{overflow:visible}.visual-scroll img{min-width:0;width:100%;max-height:110mm}.visual-link{display:none}}
+
+@media print{#ai-answers-what-couples-see .visual-scroll img{width:82%;margin:auto}#ai-answers-what-couples-see td,#ai-answers-what-couples-see th{padding:2mm}#ai-answers-what-couples-see li{margin:1mm 0}}
+
+@media print{#ai-answers-what-couples-see .visual-scroll img{width:76%}#ai-answers-what-couples-see td:first-child,#ai-answers-what-couples-see th:first-child{width:42%}}
